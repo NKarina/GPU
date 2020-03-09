@@ -1,0 +1,2 @@
+For this implementation, I opted to not sort the given values previously. 
+Instead of spending time in sorting I figured the gpu could speed up the process of finding the min.
