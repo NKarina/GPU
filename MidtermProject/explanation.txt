@@ -1,2 +1,3 @@
 For this implementation, I opted to not sort the given values previously. 
 Instead of spending time in sorting I figured the gpu could speed up the process of finding the min.
+Utilized correctly, the gpus could also lessen the the costs of removing nodes from the list and reshuffling them into order.
