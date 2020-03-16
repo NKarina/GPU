@@ -1,0 +1,7 @@
+An error of sorts is displaying the performance at a consistent .14s for all implementations. 
+However how it should be shown should generally give the naive implementation to be the slowest.
+If the data is small enough, constant memory can outperform shared memory.
+However if working with large masks, shared memory will likely perform better.
+
+Large masks will lower the performance due to more calculations needed, and this will be especially true with naive implementation.
+Generally, having a larger input array will also slow performance down.
